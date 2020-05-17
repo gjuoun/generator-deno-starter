@@ -1,0 +1,24 @@
+{
+  "name": "generator-deno-starter",
+  "version": "0.1.0",
+  "description": "Deno starter bundle with VScode debug and nodemon configuration",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "yeoman-generator": "^4.10.0"
+  },
+  "repository": {
+    "url": "https://github.com/gjuoun/generator-deno-starter"
+  },
+  "author": {
+    "name": "John Guo",
+    "email": "gjuoun@gmail.com",
+    "url": "https://github.com/gjuoun/"
+  },
+  "license": "MIT"
+}

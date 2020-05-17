@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "ignore": [],
+  "exec": "deno run -A ",
+  "watch": ["src"]
+}
