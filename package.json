@@ -1,6 +1,6 @@
 {
   "name": "generator-deno-starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deno starter bundle with VScode debug and nodemon configuration",
   "files": [
     "generators"
