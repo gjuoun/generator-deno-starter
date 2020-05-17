@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global deno-starter
+```bash
+$ npm install --global generator-deno-starter
 ```
 
 
