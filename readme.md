@@ -15,3 +15,7 @@ $ npm install --global generator-deno-starter
 $ yo deno-starter
 ```
 
+### Auto restart app
+```
+$ nodemon <FileName>
+```
