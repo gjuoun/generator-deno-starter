@@ -17,5 +17,7 @@ $ yo deno-starter
 
 ### Auto restart app
 ```
+$ npm install nodemon -g
+
 $ nodemon <FileName>
 ```
