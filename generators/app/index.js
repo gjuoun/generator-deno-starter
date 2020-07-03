@@ -18,8 +18,10 @@ module.exports = class extends Generator {
   }
 
   install() {
+    // install denon
+    this.spawnCommand("deno", "install", "-A", "-f", "--unstable", "https://deno.land/x/denon@v2.2.0/denon.ts")
     // install vscode extension
-    this.spawnCommand("code", ["--install-extension", "axetroy.vscode-deno"]);
+    this.spawnCommand("code", ["--install-extension", "denoland.vscode-deno"]);
   }
 
   end() {
@@ -52,6 +54,6 @@ module.exports = class extends Generator {
     `);
 
     console.log(`${chalk.bgWhite.black("Welcome to Deno world!")}`)
-    console.log(`${chalk.green("Type '> nodemon <file>' to watch your file and restart app!")}`)
+    console.log(`${chalk.green("Type '> denon start' to watch ./src/app.ts and restart automatically!")}`)
   }
 };
