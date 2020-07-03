@@ -19,7 +19,7 @@ module.exports = class extends Generator {
 
   install() {
     // install denon
-    this.spawnCommand("deno", "install", "-A", "-f", "--unstable", "https://deno.land/x/denon@v2.2.0/denon.ts")
+    this.spawnCommandSync("deno", "install", "-A", "-f", "--unstable", "https://deno.land/x/denon@v2.2.0/denon.ts")
     // install vscode extension
     this.spawnCommand("code", ["--install-extension", "denoland.vscode-deno"]);
   }
